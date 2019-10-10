@@ -16,9 +16,10 @@ header#mainTitle{
     font-family: trebuchet;
     font-size: 1.9em;
     color:white;
-
     padding-top: 5px;
     padding-bottom: 5px;
+    transition-property: all;
+    transition-duration: 1.3s;
   }
 img#logoImg{
   width:260px;
@@ -119,4 +120,26 @@ img#ResourcesImg{
 img#LostAndFoundImg{
   width:200px;
   height: 150px;
+}
+div.footer{
+  display: table;
+  margin: 0 auto;
+}
+ul.footer{
+  list-style-type: none;
+  margin-left: 30px;
+  padding: 0;
+}
+li.footer{
+  float: left;
+  background-color: #393e46;
+  display: block;
+  color: #eeeeee;
+  padding: 10px;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+li.footer:hover{
+  background-color: #222831;
 }
