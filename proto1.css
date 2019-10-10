@@ -35,6 +35,8 @@ div#vertDivLeft{
   padding: 190px 15px;
   background-color: #eeeeee;
   opacity: 0.8;
+  transition-property: all;
+  transition-duration: 1.5s;
 }
 div#vertDivRight{
   position: fixed;
@@ -48,7 +50,21 @@ div#vertDivRight{
   padding: 190px 15px;
   background-color: #eeeeee;
   opacity: 0.8;
+  transition-property: all;
+  transition-duration: 1.3s;
+}
+div#vertDivLeft:hover{
+  top: 280px;
+  bottom: 80px;
+  background-color: #c7c3c3;
+  opacity:1;
 
+}
+div#vertDivRight:hover{
+  top: 280px;
+  bottom: 80px;
+  background-color: #c7c3c3;
+  opacity:1;
 }
 div.tile{
   background-color: #00adb5;
@@ -61,7 +77,14 @@ div.tile{
   text-align: left;
   padding-top: 15px;
   padding-bottom: 15px;
-
+  transition-property: all;
+  transition-duration: 1.3s;
+}
+div.tile:hover{
+  margin-left: 225px;
+  margin-right: 225px;
+  opacity: 1;
+  background-color: #008187;
 }
 div.homeButtons{
   float: left;
@@ -75,6 +98,11 @@ div.homeButtons{
   text-align: center;
   color: #eeeeee;
   font-family: trebuchet;
+  transition-property: all;
+  transition-duration: 0.7s;
+}
+div.homeButtons:hover{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 div#Home{
   margin-left: 30px;
