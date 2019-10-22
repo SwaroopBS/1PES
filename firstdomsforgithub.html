@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<button id = "p1" onclick = inc1(i) > - </button>
+
+<script>
+var i = 0;
+function inc1()
+{
+  if(i == 0)
+  {
+    document.getElementById("p2").innerHTML = NULL;
+  }
+  i = i - 1;
+  document.getElementById("p2").innerHTML = i;
+}
+function inc2()
+{
+  i = i + 1;
+  document.getElementById("p2").innerHTML = i;
+}
+function print1()
+{
+  document.getElementById("checkout").innerHTML = "Checked out items are " + i;
+}
+</script>
+<p11 id = "p2">0</p11>
+
+<button id = "p1" onclick = inc2(i) > + </button>
+<button id = "checkout" onclick = print1(i)> Checkout </button>
+
+</body>
+</html>
